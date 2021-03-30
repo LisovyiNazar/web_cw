@@ -262,7 +262,7 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../themes/martin-new-event/assets/images/intro-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -420,7 +420,7 @@ footer {
     Regsiter section              
 -----------------------------------------*/
 #register {
-    background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../themes/martin-new-event/assets/images/register-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -526,7 +526,7 @@ footer {
    Venue section              
 -----------------------------------------*/
 #venue {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../themes/martin-new-event/assets/images/venue-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     padding-top: 7rem;
@@ -545,7 +545,6 @@ footer {
 -----------------------------------------*/
 #sponsors img {
   margin-top: 18px;
-  height: 140px;
 }
 
 
@@ -554,7 +553,7 @@ footer {
    Contact section              
 -----------------------------------------*/
 #contact {
-    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../themes/martin-new-event/assets/images/contact-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
 }

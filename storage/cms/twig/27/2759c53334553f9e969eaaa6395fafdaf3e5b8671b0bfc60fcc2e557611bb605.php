@@ -30,7 +30,7 @@ class __TwigTemplate_9d32b7265d8724d78f2016eeb7c1d88c0f9deca076695bf5e4c636117a2
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
         $tags = array();
-        $filters = array("theme" => 13);
+        $filters = array("theme" => 16);
         $functions = array();
 
         try {
@@ -61,43 +61,70 @@ class __TwigTemplate_9d32b7265d8724d78f2016eeb7c1d88c0f9deca076695bf5e4c636117a2
         // line 1
         echo "<section id=\"sponsors\" class=\"parallax-section\">
     <div class=\"container\">
-        <div class=\"row\">
+        <div class=\"sponsors_inner\">
+            <div class=\"row\">
+                <div class=\"wow bounceIn col-md-12 col-sm-12 animated\"
+                    style=\"visibility: visible; animation-name: bounceIn;\">
+                    <div class=\"section-title\">
+                        <h2>Наші спонсори</h2>
+                        <p>Долучайтеся до нас</p>
+                    </div>
+                </div>
 
-            <div class=\"wow bounceIn col-md-12 col-sm-12\">
-                <div class=\"section-title\">
-                    <h2>Our Sponsors</h2>
-                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.3s\"
+                    style=\"visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-1.jpg\" alt=\"\">
+                    <img src=\"";
+        // line 16
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsors/sponsor-1.jpg");
+        echo "\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.6s\"
+                    style=\"visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-2.png\" alt=\"\">
+                    <img src=\"";
+        // line 22
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsors/sponsor-2.png");
+        echo "\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.9s\"
+                    style=\"visibility: visible; animation-delay: 1s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-3.png\" alt=\"\">
+                    <img src=\"";
+        // line 28
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsors/sponsor-3.png");
+        echo "\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.9s\"
+                    style=\"visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-4.jpg\" alt=\"\">
+                    <img src=\"";
+        // line 34
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsors/sponsor-4.jpg");
+        echo "\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.6s\"
+                    style=\"visibility: visible; animation-delay: 1s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-5.png\" alt=\"\">
+                    <img src=\"";
+        // line 40
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsors/sponsor-5.png");
+        echo "\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.3s\"
+                    style=\"visibility: visible; animation-delay: 1s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-6.jpg\" alt=\"\">
+                    <img src=\"";
+        // line 46
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsors/sponsor-6.jpg");
+        echo "\" class=\"img-responsive\" alt=\"sponsors\">
                 </div>
             </div>
-
-            <div class=\"wow fadeInUp col-md-3 col-sm-6 col-xs-6\" data-wow-delay=\"0.3s\">
-                <img src=\"";
-        // line 13
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsor-img1.jpg");
-        echo "\" class=\"img-responsive\" alt=\"sponsors\">
-            </div>
-
-            <div class=\"wow fadeInUp col-md-3 col-sm-6 col-xs-6\" data-wow-delay=\"0.6s\">
-                <img src=\"";
-        // line 17
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsor-img2.jpg");
-        echo "\" class=\"img-responsive\" alt=\"sponsors\">
-            </div>
-
-            <div class=\"wow fadeInUp col-md-3 col-sm-6 col-xs-6\" data-wow-delay=\"0.9s\">
-                <img src=\"";
-        // line 21
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsor-img3.jpg");
-        echo "\" class=\"img-responsive\" alt=\"sponsors\">
-            </div>
-
-            <div class=\"wow fadeInUp col-md-3 col-sm-6 col-xs-6\" data-wow-delay=\"1s\">
-                <img src=\"";
-        // line 25
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sponsor-img4.jpg");
-        echo "\" class=\"img-responsive\" alt=\"sponsors\">
-            </div>
-
         </div>
     </div>
 </section>";
@@ -115,38 +142,59 @@ class __TwigTemplate_9d32b7265d8724d78f2016eeb7c1d88c0f9deca076695bf5e4c636117a2
 
     public function getDebugInfo()
     {
-        return array (  97 => 25,  90 => 21,  83 => 17,  76 => 13,  62 => 1,);
+        return array (  124 => 46,  115 => 40,  106 => 34,  97 => 28,  88 => 22,  79 => 16,  62 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<section id=\"sponsors\" class=\"parallax-section\">
     <div class=\"container\">
-        <div class=\"row\">
+        <div class=\"sponsors_inner\">
+            <div class=\"row\">
+                <div class=\"wow bounceIn col-md-12 col-sm-12 animated\"
+                    style=\"visibility: visible; animation-name: bounceIn;\">
+                    <div class=\"section-title\">
+                        <h2>Наші спонсори</h2>
+                        <p>Долучайтеся до нас</p>
+                    </div>
+                </div>
 
-            <div class=\"wow bounceIn col-md-12 col-sm-12\">
-                <div class=\"section-title\">
-                    <h2>Our Sponsors</h2>
-                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.3s\"
+                    style=\"visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-1.jpg\" alt=\"\">
+                    <img src=\"{{ 'assets/images/sponsors/sponsor-1.jpg'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.6s\"
+                    style=\"visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-2.png\" alt=\"\">
+                    <img src=\"{{ 'assets/images/sponsors/sponsor-2.png'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.9s\"
+                    style=\"visibility: visible; animation-delay: 1s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-3.png\" alt=\"\">
+                    <img src=\"{{ 'assets/images/sponsors/sponsor-3.png'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.9s\"
+                    style=\"visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-4.jpg\" alt=\"\">
+                    <img src=\"{{ 'assets/images/sponsors/sponsor-4.jpg'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.6s\"
+                    style=\"visibility: visible; animation-delay: 1s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-5.png\" alt=\"\">
+                    <img src=\"{{ 'assets/images/sponsors/sponsor-5.png'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
+                </div>
+
+                <div class=\"wow fadeInUp col-md-2 col-sm-2 col-xs-2 animated\" data-wow-delay=\"0.3s\"
+                    style=\"visibility: visible; animation-delay: 1s; animation-name: fadeInUp;\">
+                    <img src=\"/img/Partners/sponsor-6.jpg\" alt=\"\">
+                    <img src=\"{{ 'assets/images/sponsors/sponsor-6.jpg'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
                 </div>
             </div>
-
-            <div class=\"wow fadeInUp col-md-3 col-sm-6 col-xs-6\" data-wow-delay=\"0.3s\">
-                <img src=\"{{ 'assets/images/sponsor-img1.jpg'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
-            </div>
-
-            <div class=\"wow fadeInUp col-md-3 col-sm-6 col-xs-6\" data-wow-delay=\"0.6s\">
-                <img src=\"{{ 'assets/images/sponsor-img2.jpg'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
-            </div>
-
-            <div class=\"wow fadeInUp col-md-3 col-sm-6 col-xs-6\" data-wow-delay=\"0.9s\">
-                <img src=\"{{ 'assets/images/sponsor-img3.jpg'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
-            </div>
-
-            <div class=\"wow fadeInUp col-md-3 col-sm-6 col-xs-6\" data-wow-delay=\"1s\">
-                <img src=\"{{ 'assets/images/sponsor-img4.jpg'|theme }}\" class=\"img-responsive\" alt=\"sponsors\">
-            </div>
-
         </div>
     </div>
 </section>", "D:\\NAZAR\\program\\OpenServer\\OpenServer\\OpenServer\\domains\\coursework/themes/martin-new-event/partials/template/sponsors.htm", "");
